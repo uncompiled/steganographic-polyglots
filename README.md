@@ -24,3 +24,11 @@ browser, but the whitespace describes a fibonacci number calculator.
 - `docker-compose up` and navigate to `http://localhost` (or wherever)
 - `curl localhost > todo.html; whitespace todo.html`
 
+## NodeJS + whitespace
+
+`nodejs/figlet.js` reads text from stdin and uses figlet to render the input
+using figlet fonts, but the whitespace code counts to 10.
+
+- `npm install figlet`
+- `node figlet.js`
+- `whitespace figlet.js`
